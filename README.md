@@ -2,15 +2,15 @@
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from sk.learn.model_selection import train_test_split
-from sk.learn.metrics import accuracy_score,
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score,
 f1_score, recall_score, confusion_matrix, classification_report,
 confusion_matrix
 # Dataset (Example - can be replaced later)
 "text": =
 ("i love this movie", 1)
 ("this is amazing" 1),
-"i enjoyed this flim"
+"i enjoyed this film"
 "not my favorite"
 "it was okay"
 "absoulutey fantastic"
