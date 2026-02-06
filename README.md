@@ -10,11 +10,11 @@ confusion_matrix
 "text": =
 ("i love this movie", 1)
 ("this is amazing" 1),
-"i enjoyed this film"
-"not my favorite"
-"it was okay"
-"absoulutey fantastic"
-"could be better"
+"i enjoyed this film" 0),
+"not my favorite" 0),
+"it was okay" 1),
+"absoulutey fantastic" 0),
+"could be better" 0)
 ]
 label = [1, 1, 0, 0, 1, 0, 0]
 # Preprocessing
